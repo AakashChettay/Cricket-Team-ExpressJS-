@@ -1,0 +1,24 @@
+GET https://chettayaakashqhyvpnjscpxtwms.drops.nxtwave.tech/players/
+
+
+POST https://chettayaakashqhyvpnjscpxtwms.drops.nxtwave.tech/players/
+Content-Type: application/json
+
+{
+  "playerName": "Vishal",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+
+GET https://chettayaakashqhyvpnjscpxtwms.drops.nxtwave.tech/players/1
+
+PUT https://chettayaakashqhyvpnjscpxtwms.drops.nxtwave.tech/players/3
+Content-Type: application/json
+
+{
+  "playerName": "Babu",
+  "jerseyNumber": 17,
+  "role": "Bowler"
+}
+
+DELETE https://chettayaakashqhyvpnjscpxtwms.drops.nxtwave.tech/players/12
